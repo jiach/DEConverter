@@ -51,21 +51,6 @@ public class CufflinksParser {
         }
     }
 
-    public void write_tmp_file(Path output_dir, String[][] cov_mat, String header){
-
-        String mat_fn = output_dir.resolve("fpkm.mat").toString();
-
-        try {
-            PrintWriter mat_fout = new PrintWriter(new File(mat_fn));
-            mat_fout.print("Isoform\ty\tvariance\t"+header+"\n");
-            mat_fout.print(this.get_mat_output_string(cov_mat));
-            mat_fout.flush();
-            mat_fout.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-
-    }
 
     public void trim_isoforms(Double min_fpkm_mean, int sample_num){
 
@@ -106,15 +91,15 @@ public class CufflinksParser {
         return this.dict_arr_fpkm.get(isoform_name).status_ok;
     }
 
-    public String get_mat_output_string(String[][] cov_mat){
-        ArrayList<String> string_list = new ArrayList<String>();
+//    public String get_formatted_output_str(String method){
+//        if (method.equals("")){
+//
+//        }
+//
+//    }
 
-        for(Iterator<Map.Entry<String,ArrFPKM>> it = this.dict_arr_fpkm.entrySet().iterator();it.hasNext();){
-            Map.Entry<String, ArrFPKM> entry = it.next();
-            string_list.add(entry.getValue().get_fpkm_string(entry.getKey(),cov_mat));
-        }
-        return(StringUtils.join(string_list.toArray(new String[string_list.size()]),"\n"));
-    }
+
+
     public long get_num_isoforms(){
         return(dict_arr_fpkm.size());
     }
