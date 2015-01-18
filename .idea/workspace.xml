@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd2a9d9-c7fc-477e-81f3-fb9c98cf9bfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/upenn/ArrFPKM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/upenn/CufflinksParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/upenn/InputList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/upenn/Logger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/baseCode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_cli.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/upenn/Main.java" afterPath="$PROJECT_DIR$/src/edu/upenn/Main.java" />
     </list>
     <ignored path="DEConverter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,9 +31,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/upenn/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="780">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="960">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/edu/upenn/ArrFPKM.java" />
         <option value="$PROJECT_DIR$/src/edu/upenn/Logger.java" />
         <option value="$PROJECT_DIR$/src/edu/upenn/InputList.java" />
+        <option value="$PROJECT_DIR$/src/edu/upenn/Main.java" />
       </list>
     </option>
   </component>
@@ -435,12 +431,12 @@
       <created>1421553223330</created>
       <option name="number" value="Default" />
       <updated>1421553223330</updated>
-      <workItem from="1421553227519" duration="344000" />
+      <workItem from="1421553227519" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344000" />
+    <option name="totallyTimeSpent" value="839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1375" height="877" extended-state="6" />
@@ -542,9 +538,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/upenn/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="780">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="960">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
